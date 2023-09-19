@@ -1,0 +1,53 @@
+.timer-body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right, #00f260, #0575e6);
+  background-size: 200%;
+  animation: bg-animation 5s infinite alternate;
+}
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.general-wrapper {
+  text-align: center;
+}
+
+.input {
+  font-size: 25px;
+  padding: 15px;
+}
+.button {
+  background: indigo;
+  border: 0;
+  font-size: 24px;
+  color: wheat;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+  background-color: black;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  gap: 50px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-weight: 900;
+}
