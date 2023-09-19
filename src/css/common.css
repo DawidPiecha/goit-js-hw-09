@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-button {
+  background: indigo;
+  border: 0;
+  font-size: 24px;
+  color: wheat;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.nav-button:hover,
+.nav-button:focus {
+  transform: scale(1.1);
+  background-color: black;
+  cursor: pointer;
+}
+.nav-button a {
+  color: wheat;
+}
+.btn-wrapper {
+  text-align: center;
+}
