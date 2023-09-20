@@ -7,7 +7,7 @@ const startButton = document.querySelector('button[data-start]');
 const secondsCounter = document.querySelector('span[data-seconds]');
 const minutesCounter = document.querySelector('span[data-minutes]');
 const hoursCounter = document.querySelector('span[data-hours]');
-const daysCounter = document.querySelector('span[data-days}');
+const daysCounter = document.querySelector('span[data-days]');
 
 startButton.disabled = true;
 let correctDate = null;
