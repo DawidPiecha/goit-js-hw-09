@@ -23,7 +23,7 @@
   padding: 15px;
 }
 .button {
-  background: indigo;
+  background-color: indigo;
   border: 0;
   font-size: 24px;
   color: wheat;
@@ -37,6 +37,9 @@
 .button:focus {
   transform: scale(1.1);
   background-color: black;
+}
+.button:disabled {
+  color: indigo;
 }
 .timer {
   display: flex;

@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 .nav-button {
-  background: indigo;
+  background-color: indigo;
   border: 0;
   font-size: 24px;
   color: wheat;
@@ -36,6 +36,9 @@ a {
   transform: scale(1.1);
   background-color: black;
   cursor: pointer;
+}
+.nav-button:disabled {
+  color: indigo;
 }
 .nav-button a {
   color: wheat;
