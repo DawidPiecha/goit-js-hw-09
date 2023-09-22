@@ -3,6 +3,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
 const startButton = document.querySelector('button[data-start]');
+const resetButton = document.querySelector('.reset');
 const secondsCounter = document.querySelector('span[data-seconds]');
 const minutesCounter = document.querySelector('span[data-minutes]');
 const hoursCounter = document.querySelector('span[data-hours]');
@@ -86,4 +87,8 @@ startButton.addEventListener('click', () => {
   }
   startButton.disabled = true;
   calcRemainingTime();
+});
+
+resetButton.addEventListener('click', () => {
+  location.reload();
 });
