@@ -26,7 +26,7 @@ const options = {
     } else {
       startButton.disabled = false;
       correctDate = dateChosenByUser;
-      Notiflix.Notify.success('Your data is correct! ');
+      Notiflix.Notify.success('Your data is correct!');
     }
     console.log(selectedDates[0]);
   },
